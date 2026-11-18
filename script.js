@@ -20,10 +20,19 @@ const projects = [
 ];
 
 const jobs = [
-  {when:"2025 – present", role:"Freelance Software tester", text:"placeholder."},
-  {when:"2025 – present", role:"Senior Quality Control Specialist", text:"placeholder."},
-  {when:"2019 – 2025", role:"Quality Specialist, Wadi Group", text:"placeholder."},
+  {when:"2025 – present", role:"Freelance Software tester", text:"Carrying out software testing tasks on uTest platform."},
+{when:"2025 – present", role:"Senior Quality Control Specialist, Wadi Group", text:"Spearhead shift planning and workforce coordination for QC team of 6 members, optimizing productivity to meet on-time delivery targets, Serve as primary custodian of ISO 9001:2015 QMS: Conduct internal audits, maintain documentation, and lead continuous improvement initiatives that reduced non-conformities, Train and mentor team members on QC protocols and ISO standards, ensuring consistent compliance during regulatory audits/inspections.."},
+  {when:"2019 – 2025", role:"Quality Specialist, Wadi Group", text:"Protein Content Analysis: Perform protein content determination in soybean seeds and meal using the Kjeldahl. Accurately quantify nitrogen content and calculate protein levels, Moisture Content Measurement: Conduct moisture content analysis on soybean seeds, oil, and meal using oven drying to ensure proper quality control, Urease Enzyme Activity Assay: Analyze urease enzyme activity in soybean meal, Free Fatty Acids (FFAs) Testing: Quantify free fatty acid content in soybean oil through titration methods, ensuring compliance with quality standards."},
   {when:"2018", role:"Lab Chemist, Evergrow for speciality fertilizers.", text:"Analyzing Fertilizers and final products such as Potassium Sulphate, Sulphuric Acid, Hydrocholric Acid and Calcium Chloride, and raw materials such as Sulfur, Potassium Carbonate, Silica, etc.."}
+];
+
+const education = [
+{when:"2026", role:"AWS Certified Cloud Practitioner, AWS", text:"Introductory Certificate in AWS Services."},
+{when:"2025", role:"ISTQB Certified Tester, Foundation Level", text:"Certification in test design techniques and test management."},
+{when:"2024 – 2025", role:"Software Testing Diploma, Digital Egypt Pioneers Initiative", text:"Bootcamp in Software testing."},
+{when:"2020 – Present", role:"M.Sc. Environmental Biotechnology, University of Sadat City", text:"Thesis on production of ethanol from lignocellulosic waste."},
+{when:"2020 – 2023", role:"Computer Science Diploma, Cairo University", text:"Graduate certificate in Computer Science that emphasized fundamental concepts in Computer Programming, Operating Systems, Compilers, Algorithms, Digital Design, Networks, and Databases, equipping me with a comprehensive technical background."},
+{when:"2011 – 2015", role:"B.Sc. Biochemistry & Chemistry, Alexandria University", text:"Graduated with Good grade."}
 ];
 
 /* ---- Rendering ---- */
@@ -40,6 +49,7 @@ projects.forEach(p => {
 });
 
 $("#timeline").append(...jobs.map(j => el("li", "", `<span class="when">${j.when}</span><h3>${j.role}</h3><p>${j.text}</p>`)));
+$("#edu-timeline").append(...education.map(e => el("li", "", `<span class="when">${e.when}</span><h3>${e.role}</h3><p>${e.text}</p>`)));
 
 document.querySelectorAll(".chip").forEach(b => b.addEventListener("click", () => {
   document.querySelectorAll(".chip").forEach(x => x.classList.toggle("on", x === b));
