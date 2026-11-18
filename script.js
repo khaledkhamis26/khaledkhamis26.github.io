@@ -8,21 +8,22 @@ const checks = [
 ];
 
 const skills = {
-  "Chemistry": ["HPLC / GC-MS", "UV-Vis & FTIR", "Titration", "Method validation", "GLP / GMP", "SOP writing", "Statistics (LOD, LOQ)"],
+  "Chemistry": ["Fermentation", "UV-Vis", "Titration", "Method validation", "GLP / GMP", "SOP writing", "Ethanol Measurement"],
   "Software testing": ["Test strategy", "Exploratory testing", "Playwright", "Cypress", "Postman / REST", "Python & pytest", "JavaScript", "GitHub Actions CI", "SQL", "Jira"]
 };
 
 const projects = [
-  {t:"test", title:"End-to-end suite for a lab-ordering app", text:"Built a Playwright suite that cut regression time from two days to 25 minutes and caught a sample-ID collision before release.", tags:"Playwright · GitHub Actions", link:"https://github.com/your-username/e2e-suite"},
-  {t:"chem", title:"HPLC method for impurity profiling", text:"Developed and validated a gradient method covering linearity, precision and robustness. Transferred to two sites.", tags:"HPLC · ICH Q2", link:""},
+  {t:"test", title:"placeholder", text:"placeholder.", tags:"Playwright · GitHub Actions", link:"link"},
+  {t:"chem", title:"placeholder chem", text:"placeholder.", tags:"tags here", link:""},
   {t:"test", title:"API contract tests with test-data factory", text:"Generated realistic assay data for contract tests, which removed flaky failures caused by shared fixtures.", tags:"pytest · Postman", link:"https://github.com/your-username/api-tests"},
-  {t:"chem", title:"Stability study of an oral formulation", text:"Designed a 12-month study, analysed degradation kinetics, and recommended storage conditions that extended shelf life.", tags:"Stability · Statistics", link:""}
+  {t:"chem", title:"placeholder", text:"placeholder", tags:"Stability · Statistics", link:""}
 ];
 
 const jobs = [
-  {when:"2022 – present", role:"QA Engineer, LabFlow Software", text:"Own test automation for a laboratory information system. Introduced risk-based test planning and a CI quality gate."},
-  {when:"2019 – 2022", role:"Analytical Chemist, Meridian Pharma", text:"Method development, validation and release testing under GMP. Led two audits with no major findings."},
-  {when:"2016 – 2019", role:"Research Assistant, University Chemistry Dept.", text:"Synthesis and spectroscopic characterisation. Co-authored two papers. B.Sc. Chemistry, M.Sc. Analytical Chemistry."}
+  {when:"2025 – present", role:"Freelance Software tester", text:"placeholder."},
+  {when:"2025 – present", role:"Senior Quality Control Specialist", text:"placeholder."},
+  {when:"2019 – 2025", role:"Quality Specialist, Wadi Group", text:"placeholder."},
+  {when:"2018", role:"Lab Chemist, Evergrow for speciality fertilizers.", text:"Analyzing Fertilizers and final products such as Potassium Sulphate, Sulphuric Acid, Hydrocholric Acid and Calcium Chloride, and raw materials such as Sulfur, Potassium Carbonate, Silica, etc.."}
 ];
 
 /* ---- Rendering ---- */
