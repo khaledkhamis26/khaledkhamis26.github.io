@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alex Rivera · Chemist &amp; Software Tester</title>
+<meta name="description" content="Portfolio of Alex Rivera, analytical chemist and software tester. Methods, validation, test automation.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚗️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Literata:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#top" aria-label="Home"><span class="tile"><b>Ch</b><b>Qa</b></span>Alex Rivera</a>
+  <nav aria-label="Main">
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#work">Work</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+    <button id="theme" aria-label="Toggle dark mode" title="Toggle dark mode"></button>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-text">
+      <h1>I verify that things do what they claim, in the flask and in the codebase.</h1>
+      <p class="lede">Analytical chemist turned software tester. I bring method validation habits (controls, tolerances, reproducibility) to test strategy and automation.</p>
+      <p class="cta"><a class="btn" href="#work">See my work</a><a class="btn ghost" href="#contact">Get in touch</a></p>
+    </div>
+    <aside class="report" aria-label="Sample test report">
+      <div class="report-head"><span>Test report</span><span id="tally">0 / 0 passed</span></div>
+      <ul id="checks"></ul>
+      <p class="eq">HCl + NaOH → NaCl + H₂O <span>ΔpH = 0</span></p>
+    </aside>
+  </section>
+
+  <section id="about" class="block">
+    <h2>About</h2>
+    <div class="cols">
+      <p>I spent six years in analytical labs developing HPLC and titration methods, writing SOPs, and defending data in audits. Moving into software testing felt familiar: define the expected result, control the variables, and be honest about what the evidence shows.</p>
+      <p>Today I work on web and API quality: exploratory testing, automated suites in CI, and test data design. I'm most useful on teams that need rigor in regulated or data-heavy products such as lab software, pharma, and diagnostics.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="block">
+    <h2>Skills</h2>
+    <div class="cols" id="skill-cols"></div>
+  </section>
+
+  <section id="work" class="block">
+    <h2>Selected work</h2>
+    <div class="filters" role="group" aria-label="Filter projects">
+      <button class="chip on" data-f="all">All</button>
+      <button class="chip" data-f="chem">Chemistry</button>
+      <button class="chip" data-f="test">Testing</button>
+    </div>
+    <div class="grid" id="projects"></div>
+  </section>
+
+  <section id="experience" class="block">
+    <h2>Experience</h2>
+    <ol class="timeline" id="timeline"></ol>
+  </section>
+
+  <section id="contact" class="block contact">
+    <h2>Contact</h2>
+    <p>Open to QA, test automation, and lab-informatics roles. The fastest way to reach me is email.</p>
+    <p class="links">
+      <a class="btn" href="mailto:you@example.com">you@example.com</a>
+      <a class="btn ghost" href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn ghost" href="https://linkedin.com/in/your-username" target="_blank" rel="noopener">LinkedIn</a>
+    </p>
+  </section>
+</main>
+<footer>© <span id="year"></span> Alex Rivera. Built with plain HTML, CSS and JS.</footer>
+<script src="script.js"></script>
+</body>
+</html>
