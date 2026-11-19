@@ -30,7 +30,7 @@ const education = [
 {when:"2026", role:"AWS Certified Cloud Practitioner, AWS", text:"Introductory Certificate in AWS Services."},
 {when:"2025", role:"ISTQB Certified Tester, Foundation Level", text:"Certification in test design techniques and test management."},
 {when:"2024 – 2025", role:"Software Testing Diploma, Digital Egypt Pioneers Initiative", text:"Bootcamp in Software testing."},
-{when:"2020 – Present", role:"M.Sc. Environmental Biotechnology, University of Sadat City", text:"Thesis on production of ethanol from lignocellulosic waste."},
+{when:"2021 – Present", role:"M.Sc. Environmental Biotechnology, University of Sadat City", text:"Thesis on production of ethanol from lignocellulosic waste."},
 {when:"2020 – 2023", role:"Computer Science Diploma, Cairo University", text:"Graduate certificate in Computer Science that emphasized fundamental concepts in Computer Programming, Operating Systems, Compilers, Algorithms, Digital Design, Networks, and Databases, equipping me with a comprehensive technical background."},
 {when:"2011 – 2015", role:"B.Sc. Biochemistry & Chemistry, Alexandria University", text:"Graduated with Good grade."}
 ];
