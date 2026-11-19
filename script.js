@@ -15,7 +15,7 @@ const skills = {
 const projects = [
   {t:"test", title:"placeholder", text:"placeholder.", tags:"Playwright · GitHub Actions", link:"link"},
   {t:"chem", title:"placeholder chem", text:"placeholder.", tags:"tags here", link:""},
-  {t:"test", title:"API contract tests with test-data factory", text:"Generated realistic assay data for contract tests, which removed flaky failures caused by shared fixtures.", tags:"pytest · Postman", link:"https://github.com/your-username/api-tests"},
+  {t:"test", title:"API contract tests with test-data factory", text:"placeholder.", tags:"pytest · Postman", link:"placeholder"},
   {t:"chem", title:"placeholder", text:"placeholder", tags:"Stability · Statistics", link:""}
 ];
 
